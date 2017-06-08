@@ -48,7 +48,7 @@ exports.execute = (req, res) => {
                     attachments: attachments
                 });
             } else {
-                res.send("No records");
+                res.send("No records found");
             }
         })
         .catch(error => {
