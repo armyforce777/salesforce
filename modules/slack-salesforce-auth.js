@@ -1,6 +1,6 @@
 "use strict";
-//process.env.SLACK_LOGIN_TOKEN
-var SLACK_LOGIN_TOKEN = "00000000",
+
+var SLACK_LOGIN_TOKEN = process.env.SLACK_LOGIN_TOKEN,
     SLACK_LOGOUT_TOKEN = process.env.SLACK_LOGOUT_TOKEN,
     SF_CLIENT_ID = process.env.SF_CLIENT_ID,
     SF_CLIENT_SECRET = process.env.SF_CLIENT_SECRET,
